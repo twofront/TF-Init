@@ -1,0 +1,47 @@
+{
+  "name": "tfinit",
+  "version": "0.0.1",
+  "description": "Project initializer.",
+  "repository": "git://github.com/twofront/TF-Init",
+  "main": "index.js",
+  "bin": {
+    "tfinit": "bin/index.js"
+  },
+  "dependencies": {
+    "ncp": "^2.0.0",
+    "stdio": "^0.2.7"
+  },
+  "devDependencies": {},
+  "author": "Thomas Baron",
+  "license": "MIT",
+  "jshintConfig": {
+    "camelcase": true,
+    "curly": false,
+    "eqeqeq": true,
+    "immed": true,
+    "latedef": "nofunc",
+    "newcap": true,
+    "noarg": true,
+    "noempty": true,
+    "nonew": true,
+    "plusplus": false,
+    "quotmark": "single",
+    "undef": true,
+    "unused": true,
+    "strict": false,
+    "trailing": true,
+    "maxparams": 4,
+    "maxdepth": 5,
+    "maxlen": 130,
+    "globalstrict": true,
+    "asi": false,
+    "eqnull": false,
+    "evil": false,
+    "laxbreak": false,
+    "laxcomma": false,
+    "loopfunc": true,
+    "devel": true,
+    "browser": true,
+    "node": true
+  }
+}
